@@ -1,0 +1,10 @@
+<html>
+<body>
+Reports <code>eval(</code>, <code>exec(</code>, <code>shell_exec(</code>, <code>system(</code>,
+<code>passthru(</code> or <code>popen(</code> called with a double-quoted string that interpolates a variable, or with a
+concatenation that includes a variable, instead of a static literal.
+<!-- tooltip end -->
+<p>These functions run their argument as code or through a system shell, so any user data in the string can become
+a command. Validate the input strictly, and escape shell arguments with <code>escapeshellarg()</code>.</p>
+</body>
+</html>
